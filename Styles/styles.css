@@ -1,0 +1,91 @@
+body {
+background-image: url("http://hdwplan.com/wp-content/uploads/2016/04/awesome-background-image-hd.jpeg");
+
+}
+ul {
+    border: 1px solid #cecece;
+    border-width: 1px 0;
+    list-style: none;
+    margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 15%;
+	margin-right: 15%;
+    padding: 0;
+    text-align: center;
+	width: 70%
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px;
+	color: #000000;
+	text-decoration: none;	
+	font-family: 'Georgia';
+	font-size: 18px;
+}
+
+li a:hover {
+    background-color: #848484;
+    color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	height: 350px;
+	width: 275px;
+    box-shadow: 0 30px 5px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:nth-of-type(1) {
+	background-image: url("https://tse2.mm.bing.net/th?id=OIP.JFPPj_xTaSWlasfiHn0YvQEsDH&pid=15.1&P=0&w=277&h=186");
+	
+}
+
+.card:nth-of-type(2) {
+	background-image: url("https://hdwallsource.com/img/2014/5/leaves-background-20800-21337-hd-wallpapers.jpg");
+}
+
+.card:nth-of-type(3) {
+	
+	background-image: url("https://bgfons.com/upload/leather_texture4686.jpg");
+}
+.card:nth-of-type(4) {
+	background-image: url("http://www.etcnetwork.tv/wp-content/uploads/2014/03/Red-Abstract-Background.jpg");
+}
+
+h1 {
+	font-family: 'Georgia';
+	margin: 0;
+}
+
+p {
+	margin: 10px;
+	font-family: 'Georgia';
+	font-size: 150%;
+}

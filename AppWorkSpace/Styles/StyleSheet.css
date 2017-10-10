@@ -1,0 +1,105 @@
+body {
+	background-color: lightgrey;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+input{
+	border: none;
+}
+
+input:focus {
+	outline: none;
+}
+label{
+	/*border: solid 1px  #000;*/ 
+}
+
+#giant-box{
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+#big-box {
+	font-family: Arial;
+	width: 365px;
+	height:600px;
+	background-color:#fff;
+	display: flex; /*this sets up ,my big box as a container*/
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+		align-content: center;
+}
+
+
+
+.little-box {
+	align-content: center;
+
+}
+
+.top-part{
+	font-size: 34px;
+	text-align: center;
+}
+
+.top-part img{
+		display: block;
+		margin: auto;
+		width: 50%;
+}
+
+.input-part{
+	padding: 25px;
+}
+
+.id-box, .pass-box{
+	height: 30px;
+	padding: 8px 8px 0px 8px;
+	border: solid 0.5px rgb(0, 0, 0);
+}
+
+.id-box{
+	border-bottom: none;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+}
+
+.pass-box{
+	border-top-left-radius: 0px 15px;
+	border-top-right-radius: 0px 15px;
+	border-bottom-left-radius: 15px 15px;
+	border-bottom-right-radius: 15px 15px;
+	}
+
+.input-label{
+	font-family: Arial;
+}
+
+.links-part {
+	text-align: center;
+}
+
+.links-part a{
+	color:rgb(0, 128, 0);
+	text-decoration: none;
+}
+
+.links-part a:hover{
+	color: rgb(32, 0, 255);
+}
+
+p.sign-in{
+	font-size: 20px;
+}
+
+p.forgot-link{
+font-size: 12px;
+} 
+
+p.setup-link{
+font-size: 12px;
+} 
